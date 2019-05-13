@@ -4,7 +4,7 @@
     MAX7219/MAX7221 for the Spark Core.
 */
 /*
- *    LedControl.h - A library for controling Leds with a MAX7219/MAX7221
+ *    LedControl.h - A library for controlling Leds with a MAX7219/MAX7221
  *    Copyright (c) 2007 Eberhard Fahle
  * 
  *    Permission is hereby granted, free of charge, to any person
@@ -334,12 +334,12 @@ class LedControl {
 
  public:
     /* 
-     * Create a new controler 
+     * Create a new controller 
      * Params :
      * dataPin		pin on the Arduino where data gets shifted out
      * clockPin		pin for the clock
      * csPin		pin for selecting the device 
-     * numDevices	maximum number of devices that can be controled
+     * numDevices	maximum number of devices that can be controlled
      */
     LedControl(int dataPin, int clkPin, int csPin, int numDevices=1);
 
